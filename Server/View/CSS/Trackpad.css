@@ -1,0 +1,15 @@
+﻿.no-copy {
+  -webkit-user-select: none;
+}
+
+body 
+{
+    background-image: url("purpleBackground.jpg");
+    background-repeat: no-repeat;
+}
+
+canvas
+{
+    background-image: url("Killua.jpg");
+    background-repeat: no-repeat;
+}
