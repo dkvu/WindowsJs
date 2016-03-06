@@ -1,15 +1,81 @@
-﻿.no-copy {
-  -webkit-user-select: none;
+﻿html
+{
+    height: 100%;
+    width: 100%;
 }
 
 body 
 {
+    height: 100%;
+    width: 100%;
+
     background-image: url("purpleBackground.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.border{
+    margin-left: 3.5%;
+    height: 100%;
+    width: 100%;
+}
+
+.no-copy{
+    -webkit-user-select: none;
+}
+
+.topContent{
+    height: 8%;
+}
+
+#UserTextForm
+{
+    height: 100%;
+    margin-top: 5%;
+}
+#InputString{
+    top: 12.5%;
+    height: 75%;
+}
+
+#Enter{
+    height: 100%;
+    width: 30%;
+}
+
+#BackSpace{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+#ShutDown{
+    margin-left: 1%;
+    margin-right: 1%;
+
+    width: 30%;
+    height: 100%;
+
+    float: left;
+}
+
+#MouseClick{
+    width:30%;
+    height: 100%;
+    float: left;
+}
+
+#TrackPadDiv{
+    height: 73%;
+    width: 90%;
+}
 canvas
 {
+    margin-top: 3%;
+    width: 100%;
+    height: 100%;
+
     background-image: url("Killua.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 }

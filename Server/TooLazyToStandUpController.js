@@ -31,13 +31,13 @@ server.get('/TooLazyToStandUp/KeyBoardEvent', function (req, res) {
 
 server.get('/TooLazyToStandUp/Trackpad/UserText', function (req, res) {
 
-    res.send('');
     edgeController.keyboardEvent("TextEntry", req.query.text);
+    res.redirect('/TooLazyToStandUp/Trackpad/Trackpad.html');
 });
 
 server.get('/TooLazyToStandUp/Shutdown', function (req, res) {
 
-    res.send('');
+    res.sendfile('');
     edgeController.shutdown();
 });
 

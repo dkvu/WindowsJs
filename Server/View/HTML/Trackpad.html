@@ -3,6 +3,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
     <link rel="stylesheet" type="text/css" href="/TooLazyToStandUp/Trackpad/Trackpad.css">
     <title>Index</title>
 </head>
@@ -11,27 +12,29 @@
     <div id="dumbAssBufferForIPhones">
     </div>
         -->
+    <div class="border">
+        <div id="TextDiv" class="no-copy topContent">
+            <form action="UserText" id="UserTextForm">
+                <input type="text" id="InputString" name="text">
+                <input type="button" id="Enter" value="Enter" />
+            </form>
+        </div>
 
-    <div id="TextDiv">
-        <form action="UserText">
-            <input type="text" id="InputString" name="text">
-            <input type="button" id="Enter" value="Enter" />
-        </form>
+        <div>
+            <p id="test"></p>
+        </div>
+
+        <div id="ButtonDiv" class="no-copy topContent">
+            <input type="button" id="BackSpace" value="Backspace" />
+            <input type="button" id="ShutDown" value="Shut Down" />
+            <input type="button" id="MouseClick" value="Down" />
+        </div>
+
+        <div id="TrackPadDiv">
+            <canvas id="Trackpad" style="border:2px solid #FFFFFF;" class="no-copy"></canvas>
+        </div>
     </div>
 
-    <div> <p id="test"></p>
-         </div>
-
-    <div id="ButtonDiv" class="no-copy">
-        <input type="button" id="BackSpace" value="Backspace" />
-        <input type="button" id="ShutDown" value="Shut Down" />
-        <input type="button" id="MouseClick" value="Down" />
-    </div>
-
-    <div id="TrackPadDiv">
-        <canvas id="Trackpad" style="border:2px solid #FFFFFF;" class="no-copy"></canvas>
-    </div>
-
-    <script src="/TooLazyToStandUp/Trackpad/Trackpad.js"></script> 
+    <script src="/TooLazyToStandUp/Trackpad/TrackpadController.js"></script>
 </body>
 </html>
