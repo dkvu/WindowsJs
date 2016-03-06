@@ -144,7 +144,6 @@ var shutdown = edge.func(
 
 function edgeCallBack(error, result) {
     if (error) throw error;
-    console.log(result);
 }
 
 module.exports = {

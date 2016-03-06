@@ -12,7 +12,7 @@ server.use('/TooLazyToStandUp/Trackpad', express.static(__dirname + '/View/Image
 
 server.get('/TooLazyToStandUp/MoveCursor', function (req, res) {
 
-    // send resposne back to browser first so it doesnt have to wait?
+    // send resposne back to browser first so it doesn't have to wait?
     res.send('');
     edgeController.moveCursor(parseInt(req.query.x), parseInt(req.query.y));
 });
@@ -31,8 +31,8 @@ server.get('/TooLazyToStandUp/KeyBoardEvent', function (req, res) {
 
 server.get('/TooLazyToStandUp/Trackpad/UserText', function (req, res) {
 
-    edgeController.keyboardEvent("TextEntry", req.query.text);
     res.redirect('/TooLazyToStandUp/Trackpad/Trackpad.html');
+    edgeController.keyboardEvent("TextEntry", req.query.text);
 });
 
 server.get('/TooLazyToStandUp/Shutdown', function (req, res) {
