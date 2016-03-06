@@ -19,4 +19,5 @@ Known Issues:
 
 How I use it:
 
-	I use this appliation to control my computer, when steam shows/Movies from my computer onto my TV. Instead of standing up and going to my computer to pause, click the next episode, etc., I use the my phone to do it.
+	I use this appliation to control my computer, when steam shows/Movies from my computer onto my TV.
+	Instead of standing up and going to my computer to pause, click the next episode, etc., I use the my phone to do it.
