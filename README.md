@@ -2,8 +2,11 @@
 WinodwsJs is a nodejs application that enables the phone (limited) control over Windows machines,
 by creating a webserver, which the phone can then interact with.
 
-Pre-requisits:
-	NodeJs is installed on the Windows machine
+Pre-requisits on the Windows machine:
+
+	1. Install nodejs (https://nodejs.org/en/download/)
+	2. Install edgejs (https://github.com/tjanczuk/edge)
+		npm install edge
 
 How to start:
 
