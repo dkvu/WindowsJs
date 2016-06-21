@@ -1,5 +1,5 @@
 # WindowsJs
-WinodwsJs is a nodejs application that enables the phone (limited) control over Windows machines,
+WindowsJs is a nodejs application that enables the phone (limited) control over Windows machines,
 by creating a webserver, which the phone can then interact with.
 
 Pre-requisits on the Windows machine:
@@ -17,10 +17,9 @@ How to start:
 	3. Using any phone go to [ip]:8080/TooLazyToStandUp/Trackpad/Trackpad.html	
 Known Issues:
 
-	1. Frontend is no good........
-	2. Everythign else also might break thehe
+	1. Frontend is ehh
 
 How I use it:
 
 	I use this appliation to control my computer, when steam shows/Movies from my computer onto my TV.
-	Instead of standing up and going to my computer to pause, click the next episode, etc., I use the my phone to do it.
+	Instead of standing up and going to my computer to pause, click the next episode, etc., I use my phone to do it.
